@@ -1,0 +1,252 @@
+[2021-12-28 20:33:07,154] {scheduler_job.py:154} INFO - Started process (PID=30729) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:33:07,158] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:33:07,159] {logging_mixin.py:112} INFO - [2021-12-28 20:33:07,158] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:33:07,205] {logging_mixin.py:112} INFO - [2021-12-28 20:33:07,205] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 4, in <module>
+    from airflow.operators.alura import TwitterOperator
+ModuleNotFoundError: No module named 'airflow.operators.alura'
+[2021-12-28 20:33:07,206] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:33:08,870] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 1.716 seconds
+[2021-12-28 20:33:59,314] {scheduler_job.py:154} INFO - Started process (PID=30835) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:33:59,320] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:33:59,321] {logging_mixin.py:112} INFO - [2021-12-28 20:33:59,321] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:33:59,326] {logging_mixin.py:112} INFO - [2021-12-28 20:33:59,325] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 12
+    )
+    ^
+SyntaxError: invalid syntax
+[2021-12-28 20:33:59,327] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:33:59,480] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.166 seconds
+[2021-12-28 20:34:51,364] {scheduler_job.py:154} INFO - Started process (PID=31720) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:34:51,369] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:34:51,369] {logging_mixin.py:112} INFO - [2021-12-28 20:34:51,369] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:34:51,374] {logging_mixin.py:112} INFO - [2021-12-28 20:34:51,373] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 4, in <module>
+    from airflow.operators.alura import TwitterOperator
+ModuleNotFoundError: No module named 'airflow.operators.alura'
+[2021-12-28 20:34:51,375] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:34:51,489] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.125 seconds
+[2021-12-28 20:35:43,544] {scheduler_job.py:154} INFO - Started process (PID=31787) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:35:43,548] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:35:43,548] {logging_mixin.py:112} INFO - [2021-12-28 20:35:43,548] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:35:43,553] {logging_mixin.py:112} INFO - [2021-12-28 20:35:43,552] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from airflow.operators.alura import TwitterOperator
+ModuleNotFoundError: No module named 'airflow.operators.alura'
+[2021-12-28 20:35:43,553] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:35:43,667] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.124 seconds
+[2021-12-28 20:36:35,452] {scheduler_job.py:154} INFO - Started process (PID=31854) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:36:35,454] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:36:35,454] {logging_mixin.py:112} INFO - [2021-12-28 20:36:35,454] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:36:35,458] {logging_mixin.py:112} INFO - [2021-12-28 20:36:35,457] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from airflow.operators.alura import TwitterOperator
+ModuleNotFoundError: No module named 'airflow.operators.alura'
+[2021-12-28 20:36:35,458] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:36:35,573] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.121 seconds
+[2021-12-28 20:37:27,527] {scheduler_job.py:154} INFO - Started process (PID=31906) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:37:27,534] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:37:27,535] {logging_mixin.py:112} INFO - [2021-12-28 20:37:27,534] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:37:27,544] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:37:27,554] {logging_mixin.py:112} INFO - [2021-12-28 20:37:27,554] {dag.py:1520} INFO - Creating ORM DAG for twitter_dag
+[2021-12-28 20:37:28,070] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.543 seconds
+[2021-12-28 20:38:19,766] {scheduler_job.py:154} INFO - Started process (PID=31995) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:38:19,769] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:38:19,769] {logging_mixin.py:112} INFO - [2021-12-28 20:38:19,769] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:38:19,772] {logging_mixin.py:112} INFO - [2021-12-28 20:38:19,771] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from plugins.operators.twitter_operator import TwitterOperator
+ModuleNotFoundError: No module named 'plugins'
+[2021-12-28 20:38:19,772] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:38:19,881] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.114 seconds
+[2021-12-28 20:39:11,634] {scheduler_job.py:154} INFO - Started process (PID=32058) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:39:11,636] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:39:11,637] {logging_mixin.py:112} INFO - [2021-12-28 20:39:11,637] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:39:11,639] {logging_mixin.py:112} INFO - [2021-12-28 20:39:11,639] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from plugins.operators.twitter_operator import TwitterOperator
+ModuleNotFoundError: No module named 'plugins'
+[2021-12-28 20:39:11,639] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:39:11,751] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.116 seconds
+[2021-12-28 20:40:03,696] {scheduler_job.py:154} INFO - Started process (PID=32117) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:40:03,702] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:40:03,703] {logging_mixin.py:112} INFO - [2021-12-28 20:40:03,702] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:40:03,711] {logging_mixin.py:112} INFO - [2021-12-28 20:40:03,708] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from plugins.operators.twitter_operator import TwitterOperator
+ModuleNotFoundError: No module named 'plugins'
+[2021-12-28 20:40:03,711] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:40:03,825] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.129 seconds
+[2021-12-28 20:40:55,930] {scheduler_job.py:154} INFO - Started process (PID=32180) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:40:55,932] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:40:55,932] {logging_mixin.py:112} INFO - [2021-12-28 20:40:55,932] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:40:55,934] {logging_mixin.py:112} INFO - [2021-12-28 20:40:55,934] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from airflow.operators.twi import TwitterOperator
+ModuleNotFoundError: No module named 'airflow.operators.twi'
+[2021-12-28 20:40:55,935] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:40:56,094] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.164 seconds
+[2021-12-28 20:41:47,797] {scheduler_job.py:154} INFO - Started process (PID=32235) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:41:47,798] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:41:47,798] {logging_mixin.py:112} INFO - [2021-12-28 20:41:47,798] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:41:47,800] {logging_mixin.py:112} INFO - [2021-12-28 20:41:47,799] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5, in <module>
+    from airflow.operators.alura import TwitterOperator
+ModuleNotFoundError: No module named 'airflow.operators.alura'
+[2021-12-28 20:41:47,800] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:41:48,056] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.259 seconds
+[2021-12-28 20:42:39,862] {scheduler_job.py:154} INFO - Started process (PID=32329) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:42:39,865] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:42:39,865] {logging_mixin.py:112} INFO - [2021-12-28 20:42:39,865] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:42:39,868] {logging_mixin.py:112} INFO - [2021-12-28 20:42:39,867] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5
+    from airflow.operators.alura-projetos import TwitterOperator
+                                ^
+SyntaxError: invalid syntax
+[2021-12-28 20:42:39,868] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:42:40,049] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.187 seconds
+[2021-12-28 20:43:32,070] {scheduler_job.py:154} INFO - Started process (PID=32392) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:43:32,072] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:43:32,072] {logging_mixin.py:112} INFO - [2021-12-28 20:43:32,072] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:43:32,074] {logging_mixin.py:112} INFO - [2021-12-28 20:43:32,073] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5
+    from airflow.operators.alura-projetos import TwitterOperator
+                                ^
+SyntaxError: invalid syntax
+[2021-12-28 20:43:32,074] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:43:32,223] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.153 seconds
+[2021-12-28 20:44:23,981] {scheduler_job.py:154} INFO - Started process (PID=32549) to work on /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:44:23,987] {scheduler_job.py:1572} INFO - Processing file /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-28 20:44:23,988] {logging_mixin.py:112} INFO - [2021-12-28 20:44:23,988] {dagbag.py:417} INFO - Filling up the DagBag from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:44:23,992] {logging_mixin.py:112} INFO - [2021-12-28 20:44:23,991] {dagbag.py:259} ERROR - Failed to import: /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/mvrm/alura-projetos/datapipeline/.env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py", line 5
+    from airflow.operators.alura//-projetos import TwitterOperator
+                                ^
+SyntaxError: invalid syntax
+[2021-12-28 20:44:23,993] {scheduler_job.py:1586} WARNING - No viable dags retrieved from /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-28 20:44:24,177] {scheduler_job.py:162} INFO - Processing /home/mvrm/alura-projetos/datapipeline/airflow/dags/twitter_dag.py took 0.196 seconds
